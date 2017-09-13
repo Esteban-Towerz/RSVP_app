@@ -4,8 +4,6 @@
 
 I've Build a RSVP a JavaScript client-side web app.
 
-![](https://assets-cdn.github.com/images/modules/logos_page/GitHub-Logo.png)
-
 ## Getting Started
 
 Open the index.html
