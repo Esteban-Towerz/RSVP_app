@@ -1,6 +1,5 @@
 // console.log('Hello from app.js'); to make sure hte javascript is connected
 document.addEventListener('DOMContentLoaded', () => {
-  'use strict';
 
   const form = document.getElementById('registrar');
   const input = form.querySelector('input');

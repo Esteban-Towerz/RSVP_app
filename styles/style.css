@@ -19,8 +19,7 @@ h1 {
   font-family: 'Courgette', cursive;
   text-shadow: 0 1px 0 rgba(0,0,0, .4);
   line-height: .65;
-  margin-top: .5em;
-  margin-bottom: 0;
+  margin: .5em 0 0 0;
 }
 h2 {
   margin-top: 0;
@@ -114,8 +113,7 @@ li input[type=text]:first-child {
 }
 li button {
   font-size: .78em;
-  margin-top: 1.65em;
-  margin-right: .4em;
+  margin: 1.65em .4em 0 0;
   border-radius: .3em;
   padding: .4em .6em;
   color: white;
@@ -166,9 +164,10 @@ div > label {
   border: solid 2px rgb(203, 82, 52);
 }
 
-/* =================================
+
+/* ===============================================
   Media Queries
-==================================== */
+================================================== */
 
 @media (min-width: 0) and (max-width: 768px) {
   header {
