@@ -13,7 +13,7 @@ gulp.task('process-css', function() {
       browsers: ['last 3 version']
     }),
     postcssZindex({startIndex : 1})
-  ]
+  ];
   return gulp.src('./styles/*.css')
     .pipe(postcss(plugins))
     .pipe(cleanCSS({
@@ -31,6 +31,6 @@ gulp.task('inlinesource', function() {
       .pipe(wait(100))
       .pipe(inlinesource())
       .pipe(gulp.dest('./dist'));
-})
+});
 
 gulp.task('default', ['process-css', 'inlinesource']);
